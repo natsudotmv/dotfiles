@@ -1,0 +1,3 @@
+[submodule "starship/.config"]
+	path = starship/.config
+	url = https://github.com/nasheedibrahim/starship-prompt.git
