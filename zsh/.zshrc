@@ -8,9 +8,6 @@ plug "zsh-users/zsh-syntax-highlighting"
 autoload -Uz compinit
 compinit
 
-# Initialize Starship Prompt
-eval "$(starship init zsh)"
-
 # NVM
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
@@ -18,3 +15,6 @@ export NVM_DIR="$HOME/.nvm"
 
 # Include the composer global bin directory
 export PATH="$HOME/.config/composer"
+
+# Initialize Starship Prompt
+eval "$(starship init zsh)"
